@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/searchFooterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/home_v3_chip_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false"
+        android:paddingStart="18dp"
+        android:paddingTop="11dp"
+        android:paddingEnd="18dp"
+        android:paddingBottom="11dp"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="13sp" />
+</FrameLayout>
